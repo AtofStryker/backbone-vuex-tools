@@ -1,0 +1,42 @@
+{
+  "name": "@atofstryker/vuex-store",
+  "version": "0.7.3",
+  "description": "An implementation of a vuex store to parse objects into state and return them in a specific format",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Bill Glesias",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "dependencies": {
+    "@atofstryker/json-api-client": "^0.4.0",
+    "@atofstryker/backbone-reactivity-adapter": "^0.7.0",
+    "@atofstryker/backbone-model-factory-json-api": "^0.1.0",
+    "@atofstryker/pojo-model-factory-json-api": "^0.1.0",
+    "@atofstryker/json-api-types": "^0.4.0",
+    "lodash": "^4.0.0"
+  },
+  "peerDependencies": {
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@atofstryker/json-api-http-client": "^0.4.0",
+    "@types/backbone": "^1.4.3",
+    "@types/lodash": "^4.14.157",
+    "@vue/test-utils": "1.0.3",
+    "axios": "^0.19.0",
+    "axios-mock-adapter": "^1.18.1",
+    "backbone": "^1.4.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.5.1"
+  },
+  "gitHead": "e03a54e41cf04cc1b79514c5045a28cd6c5a09a0"
+}
